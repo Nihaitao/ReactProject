@@ -1,0 +1,13 @@
+
+.nodata_container{
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.nodata{
+  width: 1000px;
+  height: 150px;
+  background: url('../../assets/images/noneData.png') no-repeat center;
+}

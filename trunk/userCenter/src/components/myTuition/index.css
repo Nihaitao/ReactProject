@@ -1,0 +1,88 @@
+.list_bread{
+        border-left: 2px solid red; 
+        padding-left: 15px;
+        color: #333;
+        font-size: 14px;
+        margin-bottom:20px;
+       
+}
+.col_1{
+        padding: 50px;
+        padding-left: 110px;
+        height: 180px;
+        border-right-width: 1px;
+        border-right-style: dashed;
+        border-right-color: rgba(0, 0, 0, 0.14902);
+}
+
+.col_1 .icon{
+        font-size: 50px;
+        color: rgba(0, 0, 0, 0.14902);
+        margin-left: 10px;
+
+}
+
+.cancel_btn{
+        border-color: red;
+        color: rgb(255, 255, 255);
+        background-color: red;
+    }
+
+.wechat_pay{
+        width: 250px;
+        height: 150px;
+        background: url('../../assets/images/weixinpay.png') no-repeat center;
+        position: relative;
+        top: -80px;
+        left: 50px;
+}
+
+.ali_pay{
+        width: 250px;
+        height: 150px;
+        background: url('../../assets/images/zhifubao.png') no-repeat center;
+        position: relative;
+        top: -80px;
+        left: 50px;
+}
+
+.pay_success{
+        width: 250px;
+        height: 200px;
+        background: url('../../assets/images/paySuccess.png') no-repeat center;
+}
+
+.pay_way_container{
+        height: 150px;
+        padding: 50px;
+        border-top-width: 1px;
+        border-top-style: dashed;
+        border-top-color: rgb(217, 217, 217);
+        border-bottom-width: 1px;
+        border-bottom-style: dashed;
+        border-bottom-color: rgb(217, 217, 217);
+        margin-bottom: 20px;
+}
+
+.nodata_container{
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        padding-top: 130px;
+    }
+    
+.nodata{
+        width: 1000px;
+        height: 150px;
+        background: url('../../assets/images/noneData.png') no-repeat center;
+}
+
+.childTable{
+        
+}
+.childTable th span{
+        color:#999999;
+}
+.childTable tr td{
+        color:#999999;
+}

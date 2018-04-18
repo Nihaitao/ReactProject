@@ -1,0 +1,11 @@
+.avatar{
+    width:100px;
+    height:100px;
+    border-radius:50px;
+}
+
+.change_avatar{
+    position: absolute;
+    left: 150px;
+    top: 70px;
+}

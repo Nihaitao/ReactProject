@@ -1,0 +1,117 @@
+.content {
+    padding: 24px;
+    background: #fff; 
+    minHeight: 280px;
+    
+  }
+
+  .setting_container{
+    text-align: center;
+    position: relative;
+    min-width: 500px;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+.settingGroup{
+  height: 140px;
+  width: 800px;
+  padding-top: 20px;
+}
+
+.settingGroup:nth-child(2n) {
+  background: #fbfbfc;
+}
+
+.setting_group_title {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 20px;
+  padding: 20px;
+  float:left;
+}
+
+.groupItem{
+  width: 108px;
+  height: 60px;
+  text-align: center;
+  float: left;
+  margin-top: 20px;
+}
+
+.right_content{
+  width:510px;
+  float:left;
+}
+
+.promotion_head{
+  height: 100%;
+  background-color: #fbfbfc;
+  position: relative;
+  padding: 20px;
+  transition: background-color .1s;
+  border-bottom: 1px solid rgb(236, 226, 226);
+}
+
+.section_head{
+  
+  background-color: #fbfbfc;
+  transition: background-color .1s;
+  border-bottom: 1px solid rgb(236, 226, 226);
+  
+}
+
+.promotion_head p{
+  margin: 0 70px 0 0;
+  font-size: 13px;
+  color: #bfbfbf;
+  line-height: 21px;
+}
+.cell_switch{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.richTextSection{
+  height:350px;
+  background-color: #fbfbfc;
+  border-bottom: 1px solid rgb(236, 226, 226);
+}
+
+.new_msg_section{
+  height:95px;
+  background-color: #fff;
+}
+
+.btn{
+  width:100px;
+}
+
+.left{
+  float:left;
+}
+
+.input{
+  float:left;
+  width:150px;
+}
+
+.item_text{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.toolBar{
+  margin: auto;  
+  position: absolute;  
+  top: 70px; 
+  left: 20px; 
+  bottom: 0; 
+  right: 0;  
+}
+
+
+
+

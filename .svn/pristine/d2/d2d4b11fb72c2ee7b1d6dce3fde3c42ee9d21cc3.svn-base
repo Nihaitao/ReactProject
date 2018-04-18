@@ -1,0 +1,24 @@
+.login {
+  background-image: url(../assets/images/login_bot_bg.png);
+  height: 100%;
+  overflow: hidden;
+}
+
+.login_block {
+  width: 400px;
+  text-align: center;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  margin-top: -291.5px;
+  margin-left: -200px;
+}
+
+.login_form {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 25px;
+  padding: 0 30px;
+  overflow: hidden;
+  height:360px;
+}

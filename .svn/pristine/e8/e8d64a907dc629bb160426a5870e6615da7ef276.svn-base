@@ -1,0 +1,443 @@
+.exampaper_info{
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+
+  .lead {
+    margin: 0 40px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.lead h1 {
+    font-size: 20px;
+    color: #333;
+    padding: 36px 0;
+}
+
+.exam_info {
+    margin: 0 92px;
+}
+
+.exam_info .media_left, .exam_info .media_body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.exam_info .media_left {
+    padding-right: 15px;
+}
+
+.tk_pic{
+    background: url('../../assets/images/tk-pic.gif') 0 0 no-repeat;
+    width:350px;
+    height:330px;
+
+}
+ .exam_info_txt {
+    width: 555px;
+    padding-left: 70px;
+}
+
+.exam_info .exam_info_txt .info {
+    margin-top: 10px;
+}
+.exam_info_txt ul.info {
+    display: inline-block;
+    font-size: 14px;
+    list-style: none;
+}
+
+ .exam_info_txt .info li {
+    width: 50%;
+    line-height: 40px;
+    float: left;
+}
+
+.exam-info .exam_info_txt .info_item {
+    text-align: justify;
+    color: #999;
+}
+
+.exam_info_txt .info li .sub_info {
+    color:#333;
+}
+
+.exam_info_txt .other {
+    width: 100%;
+    line-height: 25px;
+    padding-top: 40px;
+    margin-bottom:20px;
+    margin-left:45px;
+}
+.red{
+    color:#fff;
+    background-color: red;
+    border-color: red;
+}
+.exam_info_txt .btn_container {
+    margin-left:45px;
+}
+:local(.btn)  {
+    composes: red;
+    width:120px;
+}
+
+:local(.title) {
+    padding-bottom: 20px;
+}
+
+.title h4 {
+    display: inline-block;
+    font-size: 18px;
+    color: #333;
+    border-left: 3px solid #e01714;
+    padding-left: 10px;
+}
+
+.timeline_block li {
+    position: relative;
+    padding: 25px 20px 8px;
+}
+
+.timeline_block li:not(:last-child):before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: calc(100% - 13px);
+    position: absolute;
+    left: 6px;
+    top: 38px;
+    z-index: 2;
+    background-color: #f9d1d0;
+}
+
+.timeline_block li i {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    background: url('../../assets/images/file.png') -90px -9px no-repeat;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    z-index: 60;
+}
+
+.timeline_block li p {
+    margin: 20px 0 0;
+    padding: 12px 25px 13px;
+    background-color: #f5f5f5;
+    line-height: 25px;
+    color: #999;
+}
+
+.bor {
+    background: #fff;
+    border: 1px solid #e0e3e9;
+}
+
+.m_examHead {
+    composes: bor;
+    position: relative;
+    z-index: 3;
+    zoom: 1;
+}
+
+.m_examHead .h2 {
+    font-size: 24px;
+    font-family: "Microsoft Yahei";
+    border-bottom: #e5e5e5 dashed 1px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    margin: 0 30px;
+}
+.m_examHead .info {
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 25px 0 15px 0;
+    color: #666;
+    margin: 0 30px;
+}
+.m_examHead .info_two {
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    background: #fff9e9;
+    border: 1px dashed #ffeec4;
+    text-align: center;
+    margin: 0 30px 25px 30px;
+    color: #ed7321;
+}
+
+.m_examHead:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: '.';
+}
+
+.ui_progress, .ui_progress > .ui_progress_sub {
+    height: auto;
+    display: inline-block;
+}
+
+.ui_progress{
+    padding-bottom: 10px;
+    zoom: 1;
+}
+
+.ui_progress_sub {
+    border: 1px solid #e7e7e7;
+    background: #f8f8f8;
+    margin-top: -2px;
+    padding-bottom: 10px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.ui_progress .navBox {
+    width: 1138px;
+    height: auto;
+    line-height: 56px;
+    background-color: #f9f9f9;
+    border: #e7e7e7 solid 1px;
+    border-top: 0;
+    padding: 0 30px;
+    box-shadow: 0 2px 3px #eee;
+}
+
+.ui_progress .navBox .btn {
+    padding: 2px 15px;
+    font-size: 15px;
+    display: block;
+    float: left;
+    line-height: 30px;
+    margin: 12px 15px 0 0;
+    border-radius: 30px;
+    background-color: #6e727a;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    height: 35px;
+    width: 8%;
+    vertical-align: middle;
+}
+
+.ui_progress .navBox .btn:hover {
+   background-color: red;
+   color:#fff;
+   border-color: red;
+}
+
+.m_secpart {
+    padding: 15px 30px;
+    background: #fff9e9;
+    border: 1px solid #ffeec4;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.pra_right_con {
+    width: 265px;
+    position: absolute;
+    top: 540px;
+    right: 360px;
+}
+
+.pra_right_con_sub {
+    width: 265px;
+    z-index: 1001;
+    position: static;
+    top: auto;
+    bottom: auto;
+    left: auto;
+}
+
+.bor {
+    background: #fff;
+    border: 1px solid #e0e3e9;
+}
+.pra_r_set {
+    composes: bor;
+   
+    height: 78px;
+}
+.pra_r_set ul {
+   font-size:14px;
+}
+
+.pra_r_set ul>li {
+    float: left;
+    position: relative;
+}
+
+.pra_r_set li a {
+    width: 72px;
+    display: block;
+    text-align: left;
+    padding: 15px 0;
+    line-height: 24px;
+    color: #666;
+    
+}
+.pra_r_set li a:hover {
+    color:#F06000;
+    
+}
+
+.pra_r_set li a i {
+   font-size:25px;
+   font-weight: bold;
+}
+
+.y_time {
+    height: 58px;
+    line-height: 58px;
+    padding-left: 15px;
+    color: #999;
+    overflow: hidden;
+}
+
+.y_time em {
+    color: #df1813;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+ .hd {
+    background-color: #f9f9f9;
+    border: #f0f0f0 solid 1px;
+    border-width: 1px 0;
+    line-height: 50px;
+}
+
+.hd .title {
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.hd .count{
+    font-size: 14px;
+    color: #F06000;
+    margin-left: 20px;
+}
+
+.bd {
+    min-height: 350px;
+    max-height: 8px;
+    overflow: auto;
+}
+
+.bd .panel_item {
+    padding: 20px 10px 0px 0px;
+    display: inline-block;
+}
+
+.bd dt {
+    border-left: 3px solid #df1813;
+    padding-left: 15px;
+    line-height: 14px;
+    font-size: 100%;
+    color: #666;
+}
+.bd .panel_order {
+    margin: 15px 0 0 15px;
+    overflow: hidden;
+}
+
+.bd dl>dd> a {
+    float: left;
+    cursor: pointer;
+    margin: 0 1px 5px 0;
+    width: 20px;
+    height: 20px;
+    line-height: 22px;
+    border: 1px solid #e6e8ec;
+    border-radius: 2px;
+    outline: none;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Arial';
+}
+.bd dl>dd{
+    padding: 18px;
+}
+
+.bd .panel_order a.this {
+    color: #fff;
+    background: #b1b6bf;
+    border: 0;
+    padding: 1px;
+}
+
+.bd dl>dd> a:hover{
+    text-decoration: none;
+    border: 0;
+    background: #f66a49;
+    color: #fff;
+}
+
+.panel_order_notice {
+    padding: 20px 0 0 35px;
+    border-top: 1px dotted #dbdbbd;
+    margin: 20px 15px 0 15px;
+}
+
+.panel_order_notice em {
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.panel_order_notice i {
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: -1px;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.panel_order_notice i.normal {
+    background: #fff;
+    border: 1px solid #d9dcdf;
+}
+
+.panel_order_notice i.doit {
+    background: #b1b6bf;
+}
+.txt_size{
+    height: 50px;
+    width: 235px;
+}
+
+.txt_size a {
+    border: #ccc solid 1px;
+    background-color: #f8f8f8;
+    width: 45px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+    display: block;
+    float: left;
+    margin-left: 25px;
+    border-radius: 3px;
+}
+
+
+
+
+
+

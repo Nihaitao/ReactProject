@@ -1,0 +1,11 @@
+.collect_text{
+    background-color:#bfbfbf;
+    text-align:center;
+    border-radius:2px;
+}
+
+.operation_container{
+    float:right;
+    color:#87CEFA;
+    font-size:13px;
+}

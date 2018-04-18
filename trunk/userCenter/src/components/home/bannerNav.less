@@ -1,0 +1,107 @@
+@baseWidth:1280px;
+@bannerHeight:460px;
+.container{
+  background-color:transparent;
+  position: relative;
+  width:@baseWidth;
+  margin:auto;
+} 
+.menu{
+  text-align:center;
+  line-height:40px;
+  height:40px;
+  font-size:16px;
+  background-color:#fff;
+}
+.menu_right{
+  background-color:#fff;
+}
+.menu_top{
+  color:#fff;
+  background-color:#f4432d;
+  border-radius: 5px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+  line-height:40px;
+  height:40px;
+  font-size:16px;
+}
+
+.menu_bottom{
+  text-align:left;
+  background-color:blue;
+}
+.detail{
+  //  composes:menu; 
+  background-color:#fff;
+  text-align:left;
+  line-height:30px;
+  height:@bannerHeight;
+  overflow:auto;
+  font-size:14px;
+  border-bottom:1px solid #eee;
+}
+.detail ul{
+  padding:0;
+  padding-left:20px;
+  div{
+    line-height:20px;
+  }
+  dt{
+    height:35px;
+    line-height:35px;
+    font-size:14px;
+    font-weight:600;
+  }
+  li{
+    display: inline-block;
+    margin-right:10px;
+    font-weight:normal;
+  }
+}
+
+.link{
+  color:inherit;
+}
+.link:global(:active),.link:global(:hover){
+  color:inherit;
+}
+
+.container{
+  :global(.ant-menu-item),
+  :global(.ant-menu-submenu),
+  :global(.ant-menu-submenu-title){
+    height:40px!important;
+    line-height:40px!important;
+  }
+  :global(.ant-menu-item),
+  :global(.ant-menu-submenu-title){
+    padding: 0 30px!important;
+  }
+  :global(.ant-menu-horizontal){
+    border-bottom:none!important;
+  }
+}
+
+.menu_nav{
+  border-bottom:2px solid transparent!important; 
+}
+.menu_nav:global(.ant-menu-item-selected){
+  color:rgba(0, 0, 0, 0.65)!important;
+}
+// .menu_nav:global(.ant-menu-item-active){
+//   color:rgba(0, 0, 0, 0.65)!important;
+// }
+.menu_nav:global(.ant-menu-submenu-selected) :global(.ant-menu-submenu-title){
+  color:rgba(0, 0, 0, 0.65)!important;
+}
+.menu_nav>:global(.ant-menu-submenu-active){
+  color:rgba(0, 0, 0, 0.65)!important;
+}
+// :global(.ant-menu-item.ant-menu-item-active){
+//   color:rgba(0, 0, 0, 0.65)!important;
+// }
+:global(.ant-menu-item.ant-menu-item-selected){
+  color:rgba(0, 0, 0, 0.65)!important;
+  background-color:transparent!important;
+}

@@ -1,0 +1,223 @@
+/*Header*/
+.logo {
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12.5px;
+  }
+.userSection{
+    float:right;
+    margin-right: 220px;
+    line-height: 40px;
+    font-size: 12.5px;
+  }
+
+.header .logo {
+    color:#fff;
+    margin-left: 250px;
+  }
+  
+.header .userSection{
+    color:#fff;
+  }
+
+  ul.info {
+    display: inline-block;
+    font-size: 12px;
+    list-style: none;
+  }
+  
+  ul.info li {
+    float: left;
+    padding: 0 15px;
+    border-right: 1px solid #fff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.border_bottom{
+    border-bottom: 2px solid rgba(0,0,0,.04);
+}
+
+.wrap_box{
+    position: relative;
+}
+
+.wrap_box .title{
+    position: absolute;
+    margin-top: -50px;
+    color: #bfbfbf;
+    font-size:12px;
+}
+
+.wrap_box .text{
+    position: absolute;
+    margin-left: 360px;
+    margin-top: -30px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.acountSection{
+    float: left;
+    width: 18%; 
+    padding-right: 10px;
+    border-right: 1px solid #d9d9d9;
+    height: 120px;
+}
+
+.acountSection .update{
+    margin-left: 10px; 
+    color: #40a9ff;
+}
+
+.account_header{
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 10px;
+}
+.acountSection .account_header div{
+    position: absolute;
+    top: 90px;
+    left: 375px;
+}
+
+.acountSection .account_header div > span{
+    margin-left: 5px;
+    color: #bfbfbf;
+    font-size: 12px;
+}
+
+.avatar{
+    margin-top: 10px;
+    background-color: #87d068;
+}
+
+.dataSection{
+    float: left;
+    width: 80%;
+}
+
+.dataHeader{
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.dataSection .ant_icon{
+    padding: 20px 20px 0px 20px;
+}
+
+.dataSection .ant_col_8{
+    margin-left: 10px;
+    margin-top: 10px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(217, 217, 217);
+
+}
+
+.dataSection .des_text{
+    padding: 5px 20px 0px 10px;
+    color: #40a9ff;
+    font-size: 12px;
+}
+
+.dataSection .iconRight{
+    position: absolute;
+    left: 65px;
+    top: 30px;
+
+}
+
+
+.gray_text{
+    color:#bfbfbf;
+}
+
+#userSection > span{
+    color:#8fde8f;
+}
+
+.user_info{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 11px; 
+    color: #bfbfbf; 
+}
+
+.fold{
+    width:70px;
+    background-color:#16314E;
+}
+
+.fold .menu_icon{
+    font-size:16px;
+    margin-left:10px;
+}
+
+.fold .menu_text{
+   display:none;
+}
+
+.fold .trigger_container{
+    background-color:rgb(38, 55, 72);
+    height: 30px;
+    margin-top:10px;
+    
+    
+}
+
+.fold .trigger_container .trigger_icon{
+    padding:10px;
+    margin-left:16px;
+    cursor: pointer;
+
+}
+
+.unfold{
+    width:95px!important;
+    background-color:#16314E;
+}
+
+.unfold .menu_icon{
+    font-size:16px;
+    margin-left:2px;
+}
+
+.unfold .menu_text{
+    font-size:12px;
+
+}
+
+
+
+.unfold .trigger_container{
+    background-color:rgb(38, 55, 72);
+    height: 30px;
+    margin-top:10px;
+}
+
+.unfold .trigger_container .trigger_icon{
+    padding:10px;
+    margin-left:25px;
+    cursor: pointer;
+
+}
+
+
+

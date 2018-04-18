@@ -1,0 +1,81 @@
+.console_header{
+    height: 150px;
+    background-color: #fff;
+    border-radius: 3px;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+}
+
+.console_header .first_section .orderMsgBox{
+    padding: 25px;
+}
+
+.avatar{
+    width:90px;
+    height:90px;
+    float:left;
+    margin: 20px;
+}
+
+.infoBox{
+    display: inline-block;
+    float:left;
+    width: 300px;
+    margin-top:30px;
+}
+
+.info_icon{
+    font-size: 14px;
+}
+
+.orderMsgBox {
+    float: right;
+    margin-right: 38px;
+    margin-top: 25px;
+}
+
+.orderMsgBox .myOrderBox {
+    border-left: 1px dashed #efefef;
+    display: inline-block;
+    position: relative;
+    padding: 0 38px;
+    border-right: 1px dashed #efefef;
+    color: #666;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.myOrderBox i{
+    font-size: 25px;
+}
+
+.noticeText {
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #efefef;
+}
+
+.noticeText h4{
+    padding: 15px 0 2px 20px;
+}
+
+.notAvailable {
+    text-align: center;
+    padding: 40px 0 30px;
+}
+
+.notAvailable .text{
+    display: inline-block;
+    vertical-align: text-top;
+    color: rgb(153, 153, 153);
+    margin-left: 8px;
+}
+
+.notAvailable .btn{
+    color: #fff;
+    background-color: #f97a1e;
+    border-color: #f97a1e;
+    width: 120px;
+}
+
+

@@ -1,0 +1,185 @@
+.list_bread{
+    border-left: 2px solid red; 
+    padding-left: 15px;
+    color: #333;
+    font-size: 14px;
+    margin-bottom:20px;
+   
+}
+
+.question_content{
+    height: 100px;
+    padding: 20px;
+    color: rgb(51, 51, 51);
+    background-color:#f5f5f5;
+}
+
+.toolbar{
+    float:right;
+   text-align: right;
+    margin-top:10px;
+}
+.btn{
+    margin-left: 25px;
+    background-color: #33B561;
+    color: #fff;
+    border-color: #33B561;
+}
+
+.red_btn{
+    background-color: red;
+    color: #fff;
+    border-color: red;
+}
+
+.code_btn{
+    position: relative;
+    left: 730px;
+    top: -102px;
+    background-color: rgba(255, 197, 61, 0.23);
+    color: #faad14;
+    border-color: #faad14;
+}
+
+.input{
+    border:none;
+    cursor: default;
+    margin-left:20px;
+    color:#333;
+    background-color: #fff;
+}
+
+.warning{
+    font-size: 13px;
+    margin-left: 150px;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.45098);
+}
+
+.submit_area{
+    text-align: center;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(232, 232, 232);
+    padding: 20px;
+    
+}
+
+.basic_avatar{
+    position: relative;
+    top: -320px;
+    left: 80px;
+}
+
+.ok_btn{
+    margin-left: 25px;
+    background-color: #33B561;
+    color: #fff;
+    border-color: #33B561;
+
+}
+
+.cancel_btn{
+    
+    border-color: red;
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
+
+.function_btn{
+    border-color:#f97a1e;
+    color: #fff;
+    background-color:#f97a1e;
+}
+
+.des_area{
+    padding: 25px;
+    color: rgb(249, 122, 30);
+    background-color: rgba(250, 173, 20, 0.17);
+    height:85px;
+}
+
+.des_area p{
+    text-align: center;
+    font-size:13px;
+}
+
+.wechat_bind{
+    width: 200px;
+    height: 140px;
+    background: url('../../assets/images/weChatIcon.png') no-repeat center;
+
+}
+
+.qq_bind{
+    width: 200px;
+    height: 140px;
+    background: url('../../assets/images/QQIcon.png') no-repeat center;
+
+
+}
+
+
+.order_list_title{
+    height: 39px;
+    background-color: #f7f7f7;
+    padding: 10px 18px 10px;
+}
+
+.order_list_title .order_time{
+    font-size: 14px;
+    line-height: 19px;
+    color: #a4a4a4;
+    margin-left:20px;
+
+}
+
+.col_1{
+    border-left:1px solid #e8e8e8;
+    border-right:1px solid #e8e8e8;
+    height: 100px;
+    padding: 40px;
+
+}
+
+
+.col_2{ 
+   
+    border-right:1px solid #e8e8e8;
+    height: 100px;
+    padding: 40px;
+    padding-left: 60px;
+
+}
+
+.col_3{
+
+    height: 100px;
+    padding: 30px;
+    padding-left: 45px;
+}
+
+.col_3 p{
+    padding: 10px 0 0 25px;
+ }
+
+.order_price{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nodata_container{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.nodata{
+    width: 800px;
+    height: 150px;
+    background: url('../../assets/images/noneData.png') no-repeat center;
+}
+
+

@@ -1,0 +1,44 @@
+.chapter_icon {
+    display: inline-block;
+    vertical-align: sub;
+    width: 24px;
+    height: 24px;
+    background: url('../../assets/images/chapter-icon.png') 0 0 no-repeat;
+}
+
+.chapter_list>li {
+    padding: 16px 0;
+    border-top: 1px solid #ddd;
+}
+
+.chapter_list>li:first-child {
+    border: none;
+}
+
+.chapter_icon+span {
+    font-size: 18px;
+    color: #000;
+    margin-left: 15px;
+}
+
+.camera_icon{
+    margin-left: 5px;
+    margin-right: 20px;
+    color: #929292;
+}
+
+.course_list{
+    padding-left:0px
+}
+
+.course_list li {
+    margin-top: 10px;
+}
+
+.course_list li a {
+    display: block;
+    padding: 12px 8px;
+    color: #000;
+    background-color: #EEEEEE;
+}
+

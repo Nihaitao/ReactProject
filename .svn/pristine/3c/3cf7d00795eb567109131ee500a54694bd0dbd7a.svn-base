@@ -1,0 +1,119 @@
+.container {
+    width: 1230px;
+}
+
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}
+}
+
+@media (min-width: 992px){
+.container {
+    width: 970px;
+}
+}
+
+@media (min-width: 768px){
+.container {
+    width: 750px;
+}
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.Pro_screen {
+    padding-bottom: 20px;
+    background-color: #F0F2F5;
+}
+
+.Pro_showDetail {
+    color: #666;
+}
+
+.Pro_titleMsgBox {
+    padding-left: 20px;
+    width: 871px;
+}
+
+.price {
+    font-size: 18px;
+    color: #e4393c;
+    font-weight: 600;
+}
+
+.Cur_introduce {
+    background-color: #F0F2F5;
+    padding-bottom: 30px;
+    margin-top:20px;
+}
+
+.Cur_introduce_info {
+    width: 73%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    float:left;
+    margin-right: 15px;
+    padding:10px 20px 20px 20px;
+    
+}
+
+.Cur_introduce_Tinfo {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    float:left;
+}
+
+.Cur_introduce_Tinfo h3 {
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.teacher_photo {
+    border-radius: 50%;
+}
+
+.teacher_info:last-child {
+    border: none;
+}
+
+.teacher_info {
+    text-indent: 2em;
+    line-height: 1.6em;
+    text-align: left;
+    font-size: 14px;
+    color: #737373;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.teacher_name {
+    margin: 20px 0 10px 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.null_image{
+    background: url('../../assets/images/null.jpg') no-repeat center;
+}

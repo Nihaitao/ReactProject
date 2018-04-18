@@ -1,0 +1,23 @@
+.input{
+    border:none;
+    margin-left: 80px;
+    cursor: default;
+    background-color: #fff;
+    color:#333;
+}
+.check{
+    margin-left: 60px;
+}
+.nodata_container{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.nodata{
+    width: 1000px;
+    height: 150px;
+    background: url('../../assets/images/noneData.png') no-repeat center;
+}
+

@@ -1,0 +1,32 @@
+.register a:hover{
+    text-decoration:underline;
+}
+
+.register a{
+    color:#666;
+}
+
+.verify_code{
+    cursor: pointer;
+    position: absolute;
+    color: #999;
+    padding-left: 15px;
+    border-left: 1px solid #ddd;
+    width: 90px;
+    left: 220px;
+    top: 5px;
+    font-size: 14px;
+}
+button.verify_code,
+button.verify_code:hover,
+button.verify_code:focus,
+button.verify_code:global(.ant-btn-clicked){
+    color: #999!important;
+    background-color: #fff!important;
+    border: none!important;
+    border-radius: 0!important;
+    border-left: 1px solid #ddd!important;
+}
+button.verify_code:global(.ant-btn-clicked):after{
+    display: none;
+}

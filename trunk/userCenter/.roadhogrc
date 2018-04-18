@@ -1,0 +1,28 @@
+{
+  "entry": "src/index.js",
+   "proxy": {
+    "/service": {
+      "target": "http://47.97.163.229:8080/",
+      "changeOrigin": true,
+      "headers":{
+        "X-Host":"wangxiaocenter.chutoukj.com"
+      },
+      "pathRewrite": { "^/service" : "" }
+    }
+  },
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr",
+        "transform-runtime",
+        ["import", { "libraryName": "antd", "style": true }]
+      ]
+    },
+    "production": {
+      "extraBabelPlugins": [
+        "transform-runtime",
+        ["import", { "libraryName": "antd", "style": true }]
+      ]
+    }
+  }
+}

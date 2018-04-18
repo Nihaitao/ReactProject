@@ -1,0 +1,22 @@
+.payment_radio{
+    background-color: #096dd9;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.radio_text{
+    float: right;
+    background-color: #1E90FF;
+    height: 60px;
+    width: 105px;
+    border-radius: 0px 5px 5px 0px;
+    padding:5px;
+    padding-left: 15px;
+    
+}
+
+
+.radio_text h4{
+    color:#fff;
+}
